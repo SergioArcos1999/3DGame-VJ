@@ -11,9 +11,7 @@ public class BallMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        vx = 1.0f;
-        vy = 1.0f;
-        rb.velocity = new Vector3(speed * vx, speed * vy);
+        rb.velocity = new Vector3(speed, speed);
         timeLastChange = Time.time;
         lastCollisionTime = Time.time;
     }
@@ -38,8 +36,15 @@ public class BallMove : MonoBehaviour
             else if (direction.x > 0.0f && direction.y < 0.0f) rb.velocity = new Vector3(15.0f, -15.0f, 0);
             else if (direction.x < 0.0f && direction.y > 0.0f) rb.velocity = new Vector3(-15.0f, 15.0f, 0);
             else if (direction.x < 0.0f && direction.y < 0.0f) rb.velocity = new Vector3(-15.0f, -15.0f, 0);
+            else rb.velocity = new Vector3(15.0f, 15.0f, 0);
             lastCollisionTime = Time.time;
                 }
+        Debug.Log(rb.velocity);
         //Debug.Log("Out Direction: " + direction);
+    }
+
+    void OnTriggerEnter(Collider trigger)
+    {
+        transform.Translate(-76.0f, 60.0f, 0, 0f);
     }
 }
