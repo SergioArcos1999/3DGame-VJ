@@ -1,0 +1,882 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6645409382815418356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3108780463303159128}
+  - component: {fileID: -4183917187406325920}
+  m_Layer: 0
+  m_Name: TIerra12
+  m_TagString: limit
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3108780463303159128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6645409382815418356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 26235874376977719}
+  - {fileID: 8484446976059453426}
+  - {fileID: 223991167785590797}
+  - {fileID: 6252078596346010981}
+  - {fileID: 1142554424618183527}
+  - {fileID: 5660696867168035365}
+  - {fileID: 6615406546419366482}
+  - {fileID: 1525328004514661660}
+  - {fileID: 3200256422718541084}
+  - {fileID: 2191998489722257116}
+  - {fileID: 3562461769297219694}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &-4183917187406325920
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6645409382815418356}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &165242228676778232
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &3562461769297219694 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 165242228676778232}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2257146421050312074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &3200256422718541084 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 2257146421050312074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2742810138002836874
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &1525328004514661660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 2742810138002836874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3265371377286575690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &2191998489722257116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 3265371377286575690}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3467947854220093595
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &223991167785590797 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 3467947854220093595}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3703739652879812001
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &26235874376977719 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 3703739652879812001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4386591553567089649
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &1142554424618183527 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 4386591553567089649}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5081654013084804964
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &8484446976059453426 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 5081654013084804964}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7347832451050526195
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &6252078596346010981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 7347832451050526195}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7563166382782427844
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &6615406546419366482 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 7563166382782427844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9058343295104920243
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3108780463303159128}
+    m_Modifications:
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588203572629904301, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+        type: 3}
+      propertyPath: m_Name
+      value: bloqueTierraSinHierbaMario (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 48f3fc4d37997cc48a0807a0b55a8592, type: 3}
+--- !u!4 &5660696867168035365 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
+    type: 3}
+  m_PrefabInstance: {fileID: 9058343295104920243}
+  m_PrefabAsset: {fileID: 0}
