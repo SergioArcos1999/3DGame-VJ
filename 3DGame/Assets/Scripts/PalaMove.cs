@@ -17,7 +17,8 @@ public class PalaMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector3(0.0f, speed, 0.0f);
+    	if (tag == "palaV") rb.velocity = new Vector3(0.0f, speed, 0.0f);
+		else if (tag == "palaH") rb.velocity = new Vector3(speed, 0.0f, 0.0f);
     }
 
     void OnCollisionEnter(Collision collision)

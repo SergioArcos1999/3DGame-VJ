@@ -29,7 +29,13 @@ public class BallMove : MonoBehaviour
                    transform.rotation);
             timeLastChange = Time.time;
             rb.velocity = new Vector3(rb.velocity.x, -rb.velocity.y,0);
-        } 
+        }
+
+       if (Input.GetKeyDown("p"))
+       {
+           transform.position = new Vector3 (-57.0f, 112.0f, -3.0f);
+           rb.velocity = new Vector3(15.0f, 15.0f, 0);
+       }
     }
 
     void OnCollisionEnter(Collision collision)
