@@ -20,26 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Prefabs/Hierba11.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Hierba11.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prefabs/Hierba12.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Hierba12.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prefabs/TIerra12.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/TIerra12.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prefabs/Tierra11.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Tierra11.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IAPala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IAPala.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PalaMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PalaMove.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/e9/e9b281ce3eed2c7649598fb4b6dd99d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/f4/f424cbdabd68df249f4b65c6f62f2144" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +47,7 @@
         <option value="$PROJECT_DIR$/PalaMove.cs" />
         <option value="$PROJECT_DIR$/IAPala.cs" />
         <option value="$PROJECT_DIR$/BallMove.cs" />
+        <option value="$PROJECT_DIR$/buttonPressed.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +77,7 @@
       <workItem from="1606480897186" duration="2095000" />
       <workItem from="1606844770300" duration="2910000" />
       <workItem from="1606905533547" duration="1827000" />
+      <workItem from="1606927557770" duration="1529000" />
     </task>
     <servers />
   </component>
