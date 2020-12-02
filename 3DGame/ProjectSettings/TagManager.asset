@@ -9,6 +9,7 @@ TagManager:
   - tp
   - palaV
   - palaH
+  - noPlayer
   layers:
   - Default
   - TransparentFX

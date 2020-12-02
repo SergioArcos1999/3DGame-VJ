@@ -40,7 +40,7 @@ public class BallMove : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (Time.time - lastCollisionTime > 0.1) { 
+        if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer")) { 
             var direction = Vector3.Reflect(lastSpeed.normalized, collision.contacts[0].normal);
             if (direction.x > 0.0f && direction.y > 0.0f)
             {
@@ -70,6 +70,6 @@ public class BallMove : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        transform.Translate(-76.0f, 60.0f, 0, 0f);
+        if (trigger.gameObject.tag == "tp") transform.position = new Vector3 (-57.0f, 112.0f, -3.0f);
     }
 }

@@ -41,11 +41,19 @@ public class IAPala : MonoBehaviour
                 }
             }
             else
-        {
-            speed = 0.0f;
-        }
+        	{
+            	speed = 0.0f;
+        	}
 
-            rb.velocity = new Vector3(0.0f, speed, 0.0f);
-            actualCollisionTime = Time.time;
-        }
+        	rb.velocity = new Vector3(0.0f, speed, 0.0f);
+        	actualCollisionTime = Time.time;
+     
+	}
+	void OnTriggerEnter(Collider trigger)
+    {
+        if (trigger.gameObject.tag == "noPlayer") {
+            speed = -speed;
+            lastCollisionTime = Time.time;
+    	}
+	}
 }

@@ -23,8 +23,16 @@ public class PalaMove : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if ((collision.collider.tag == "limit") && (Time.time - lastCollisionTime > 0.1))
+        if ((collision.collider.tag == "limit" || collision.collider.tag == "noPlayer" ) && (Time.time - lastCollisionTime > 0.1))
         {
+            speed = -speed;
+            lastCollisionTime = Time.time;
+        }
+    }
+
+	void OnTriggerEnter(Collider trigger)
+    {
+        if (trigger.gameObject.tag == "noPlayer") {
             speed = -speed;
             lastCollisionTime = Time.time;
         }
