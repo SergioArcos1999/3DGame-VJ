@@ -24,10 +24,11 @@ public class BallMove : MonoBehaviour
         lastSpeed = rb.velocity;
        if (Input.GetKeyDown(KeyCode.Space) && ((timeFromPreviosChange - timeLastChange) > 0.1))
        {
-           Instantiate(efecto,
+           Object a = Instantiate(efecto,
                new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z),
                    transform.rotation);
-            timeLastChange = Time.time;
+           Destroy(a, 2.0f);
+           timeLastChange = Time.time;
             rb.velocity = new Vector3(rb.velocity.x, -rb.velocity.y,0);
         }
 
@@ -40,7 +41,8 @@ public class BallMove : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer")) { 
+        if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer"))
+        {
             var direction = Vector3.Reflect(lastSpeed.normalized, collision.contacts[0].normal);
             if (direction.x > 0.0f && direction.y > 0.0f)
             {
@@ -62,9 +64,22 @@ public class BallMove : MonoBehaviour
             {
                 rb.velocity = new Vector3(15.0f, 15.0f, 0);
             }
+
             lastCollisionTime = Time.time;
-                }
-        Debug.Log(rb.velocity);
+        }
+        else
+        {
+            Debug.Log("preliminar"+rb.velocity);
+            float x = 0, y = 0;
+            if (rb.velocity.x < 0) x = -15.0f;
+            if (rb.velocity.y < 0) y = -15.0f;
+            if (rb.velocity.x >= 0) x = 15.0f;
+            if (rb.velocity.y >= 0) y = 15.0f;
+            rb.velocity = new Vector3(x,y,0.0f);
+            Debug.Log("final"+rb.velocity);
+        }
+
+        //Debug.Log(rb.velocity);
         //Debug.Log("Out Direction: " + direction);
     }
 
