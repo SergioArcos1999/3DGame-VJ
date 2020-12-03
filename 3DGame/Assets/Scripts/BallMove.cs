@@ -37,6 +37,14 @@ public class BallMove : MonoBehaviour
            transform.position = new Vector3 (-57.0f, 112.0f, -3.0f);
            rb.velocity = new Vector3(15.0f, 15.0f, 0);
        }
+       Debug.Log("preliminar"+rb.velocity);
+       float x = 0, y = 0;
+       if (rb.velocity.x < 0) x = -15.0f;
+       if (rb.velocity.y < 0) y = -15.0f;
+       if (rb.velocity.x >= 0) x = 15.0f;
+       if (rb.velocity.y >= 0) y = 15.0f;
+       rb.velocity = new Vector3(x,y,0.0f);
+       Debug.Log("final"+rb.velocity);
     }
 
     void OnCollisionEnter(Collision collision)
@@ -67,17 +75,16 @@ public class BallMove : MonoBehaviour
 
             lastCollisionTime = Time.time;
         }
-        else
-        {
-            Debug.Log("preliminar"+rb.velocity);
-            float x = 0, y = 0;
-            if (rb.velocity.x < 0) x = -15.0f;
-            if (rb.velocity.y < 0) y = -15.0f;
-            if (rb.velocity.x >= 0) x = 15.0f;
-            if (rb.velocity.y >= 0) y = 15.0f;
-            rb.velocity = new Vector3(x,y,0.0f);
-            Debug.Log("final"+rb.velocity);
-        }
+ 
+        Debug.Log("preliminar"+rb.velocity);
+        float x = 0, y = 0;
+        if (rb.velocity.x < 0) x = -15.0f;
+        if (rb.velocity.y < 0) y = -15.0f;
+        if (rb.velocity.x >= 0) x = 15.0f;
+        if (rb.velocity.y >= 0) y = 15.0f;
+        rb.velocity = new Vector3(x,y,0.0f);
+        Debug.Log("final"+rb.velocity);
+
 
         //Debug.Log(rb.velocity);
         //Debug.Log("Out Direction: " + direction);
