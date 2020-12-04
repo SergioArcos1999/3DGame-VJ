@@ -14,7 +14,7 @@ public class killGoomba : MonoBehaviour
     void Update()
     {
     }
-    void OnTriggerEnter(Collider trigger)
+    void OnCollisionEnter(Collision collision)
     {
         Instantiate(deadGoomba, new Vector3 (this.transform.position.x, this.transform.position.y, this.transform.position.z),new Quaternion(0.0f, -180.0f , 0.0f, 1));
         transform.position = new Vector3 (-1000.0f, 0.0f, 0.0f);

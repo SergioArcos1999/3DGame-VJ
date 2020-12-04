@@ -99,5 +99,8 @@ public class BallMove : MonoBehaviour
         {
             initPosition = trigger.gameObject.transform.position;
         }
+        else if (trigger.gameObject.tag == "tuberia")
+        {
+        }
     }
 }

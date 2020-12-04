@@ -20,20 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Prefabs/noFlag.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/noFlag.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scenes/Game1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Game2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkpointOn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/checkpointOn.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/killGoomba.cs" beforeDir="false" afterPath="$PROJECT_DIR$/killGoomba.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +52,9 @@
         <option value="$PROJECT_DIR$/IAPala.cs" />
         <option value="$PROJECT_DIR$/balaMove.cs" />
         <option value="$PROJECT_DIR$/buttonPressed.cs" />
+        <option value="$PROJECT_DIR$/checkpointOn.cs" />
         <option value="$PROJECT_DIR$/killGoomba.cs" />
         <option value="$PROJECT_DIR$/BallMove.cs" />
-        <option value="$PROJECT_DIR$/checkpointOn.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +88,7 @@
       <workItem from="1607006643694" duration="3272000" />
       <workItem from="1607069462042" duration="8312000" />
       <workItem from="1607086181263" duration="1030000" />
-      <workItem from="1607107548406" duration="2204000" />
+      <workItem from="1607107548406" duration="3740000" />
     </task>
     <servers />
   </component>

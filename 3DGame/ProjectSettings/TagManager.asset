@@ -13,6 +13,7 @@ TagManager:
   - button
   - enemy
   - checkpoint
+  - tuberia
   layers:
   - Default
   - TransparentFX
