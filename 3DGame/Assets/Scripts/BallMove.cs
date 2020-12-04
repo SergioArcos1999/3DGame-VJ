@@ -94,6 +94,6 @@ public class BallMove : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.tag == "tp") transform.position = initPosition;
+        if (trigger.gameObject.tag == "tp" || trigger.gameObject.tag == "enemy") transform.position = initPosition;
     }
 }

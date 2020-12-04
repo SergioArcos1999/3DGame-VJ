@@ -11,6 +11,7 @@ TagManager:
   - palaH
   - noPlayer
   - button
+  - enemy
   layers:
   - Default
   - TransparentFX

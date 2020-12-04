@@ -20,34 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Ball_Move.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ball_Move.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Game1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buttonPressed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/buttonPressed.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/APIUpdater/project-dependencies.graph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/84/847c7fa6f2e5bcc38568bba24cc9f505" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/Artifacts/d2/d2e296bd42f6e448d8bc42a4a37375be" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/PackageCache/com.unity.ide.rider@1.1.4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/PackageCache/com.unity.ide.rider@1.1.4/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/Style.catalog" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/Style.catalog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +48,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/balaMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ParticlesMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BallMove.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -69,6 +60,7 @@
         <option value="$PROJECT_DIR$/IAPala.cs" />
         <option value="$PROJECT_DIR$/buttonPressed.cs" />
         <option value="$PROJECT_DIR$/BallMove.cs" />
+        <option value="$PROJECT_DIR$/balaMove.cs" />
       </list>
     </option>
   </component>
@@ -100,7 +92,8 @@
       <workItem from="1606905533547" duration="1827000" />
       <workItem from="1606927557770" duration="1529000" />
       <workItem from="1607006643694" duration="3272000" />
-      <workItem from="1607069462042" duration="874000" />
+      <workItem from="1607069462042" duration="8312000" />
+      <workItem from="1607086181263" duration="1030000" />
     </task>
     <servers />
   </component>
