@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2694894171289908538}
   m_Layer: 0
   m_Name: noFlag
-  m_TagString: Untagged
+  m_TagString: checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,3 +106,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8356023bc5be5b94fa679b51a882c443, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flagOn: {fileID: 0}
