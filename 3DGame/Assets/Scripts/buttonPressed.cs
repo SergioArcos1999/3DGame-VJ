@@ -11,6 +11,7 @@ public class buttonPressed : MonoBehaviour
     public GameObject target4;
     public GameObject target5;
     public GameObject target6;
+    public GameObject after; 
     
     
     void Start()
@@ -26,6 +27,9 @@ public class buttonPressed : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
+        
+        Instantiate(after, new Vector3 (this.transform.position.x, this.transform.position.y, this.transform.position.z),transform.rotation);
+        transform.position = new Vector3 (-57.0f, 112.0f, 7.0f);
         Destroy(target);
         Destroy(target1);
         Destroy(target2);

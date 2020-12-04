@@ -10,8 +10,10 @@ public class BallMove : MonoBehaviour
     float vx, vy, timeLastChange, lastCollisionTime;
     public GameObject efecto;
     // Start is called before the first frame update
+    private Vector3 initPosition;
     void Start()
     {
+        initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
         rb.velocity = new Vector3(speed, speed);
         timeLastChange = Time.time;
         lastCollisionTime = Time.time;
@@ -34,7 +36,7 @@ public class BallMove : MonoBehaviour
 
        if (Input.GetKeyDown("p"))
        {
-           transform.position = new Vector3 (-57.0f, 112.0f, -3.0f);
+           transform.position = initPosition;
            rb.velocity = new Vector3(15.0f, 15.0f, 0);
        }
        Debug.Log("preliminar"+rb.velocity);
@@ -92,6 +94,6 @@ public class BallMove : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.tag == "tp") transform.position = new Vector3 (-57.0f, 112.0f, -3.0f);
+        if (trigger.gameObject.tag == "tp") transform.position = initPosition;
     }
 }
