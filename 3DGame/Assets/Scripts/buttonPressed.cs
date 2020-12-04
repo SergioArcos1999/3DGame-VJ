@@ -29,7 +29,7 @@ public class buttonPressed : MonoBehaviour
     {
         
         Instantiate(after, new Vector3 (this.transform.position.x, this.transform.position.y, this.transform.position.z),transform.rotation);
-        transform.position = new Vector3 (-57.0f, 112.0f, 7.0f);
+        transform.position = new Vector3 (-1000.0f, 0.0f, 0.0f);
         Destroy(target);
         Destroy(target1);
         Destroy(target2);
