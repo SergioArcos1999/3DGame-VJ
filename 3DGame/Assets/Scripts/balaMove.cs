@@ -22,16 +22,18 @@ public class balaMove : MonoBehaviour
     void Update()
     {
         float step = speed * Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(target.position.x,transform.position.y,target.position.z), step);
     }
 
     void OnTriggerEnter(Collider trigger)
     {
         if (trigger.gameObject.tag == "cpBala")
         {
-            transform.position = trigger.gameObject.transform.position;
+            transform.position = new Vector3(target.position.x,transform.position.y,target.position.z);
             transform.Rotate(0.0f, 180.0f, 0.0f, Space.Self);
-            trigger.gameObject.transform.position = initPosition;
+            Vector3 aux = trigger.gameObject.transform.position;
+            trigger.gameObject.transform.position= initPosition;
+            initPosition = aux;
         }
     }
 }
