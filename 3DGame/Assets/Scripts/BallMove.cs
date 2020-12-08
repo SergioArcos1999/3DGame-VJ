@@ -12,6 +12,9 @@ public class BallMove : MonoBehaviour
     // Start is called before the first frame update
     private Vector3 initPosition;
     private bool godMode;
+    public AudioClip changeDirectionSound;
+    public AudioClip ballBounceSound;
+    public AudioClip initSound;
     void Start()
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
@@ -19,6 +22,7 @@ public class BallMove : MonoBehaviour
         timeLastChange = Time.time;
         lastCollisionTime = Time.time;
         godMode = false;
+        AudioSource.PlayClipAtPoint(initSound, transform.position);
     }
 
     // Update is called once per frame
@@ -28,6 +32,7 @@ public class BallMove : MonoBehaviour
         lastSpeed = rb.velocity;
        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && ((timeFromPreviosChange - timeLastChange) > 0.1))
        {
+           AudioSource.PlayClipAtPoint(changeDirectionSound, transform.position);
            Object a = Instantiate(efecto,
                new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z),
                    transform.rotation);
@@ -60,6 +65,7 @@ public class BallMove : MonoBehaviour
     {
         if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer"))
         {
+            AudioSource.PlayClipAtPoint(ballBounceSound, transform.position);
             var direction = Vector3.Reflect(lastSpeed.normalized, collision.contacts[0].normal);
             if (direction.x > 0.0f && direction.y > 0.0f)
             {
