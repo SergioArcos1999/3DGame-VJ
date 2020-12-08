@@ -6179,6 +6179,10 @@ MonoBehaviour:
   speed: 15
   rb: {fileID: 1064861304}
   efecto: {fileID: 5541377150858376046, guid: 601e19e31e2385548bc3337e6e630537, type: 3}
+  changeDirectionSound: {fileID: 8300000, guid: 0d3991a3803a21f46b3acd51adde0ada,
+    type: 3}
+  ballBounceSound: {fileID: 8300000, guid: f79dd542a8bd71f4c9d12dd7ccb169a0, type: 3}
+  initSound: {fileID: 8300000, guid: cb957e4e5fb4e9c4194289083b5b2c31, type: 3}
 --- !u!1001 &1072622536
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -15,6 +15,8 @@ TagManager:
   - checkpoint
   - tuberia
   - palaAvoid
+  - cp2
+  - cp1
   layers:
   - Default
   - TransparentFX

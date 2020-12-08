@@ -79,7 +79,7 @@ public class CameraFollow : MonoBehaviour
             }
         }
         
-        else if(sceneName == "Game1") //Level 2
+        else if(sceneName == "Game1" || sceneName == "Game2") //Level 2
         {
             //Inicio
             if (target.position.y <= 69 && target.position.y >= 36 && target.position.x >= -34 && target.position.x <= 30)

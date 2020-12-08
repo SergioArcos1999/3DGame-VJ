@@ -15,6 +15,12 @@ public class BallMove : MonoBehaviour
     public AudioClip changeDirectionSound;
     public AudioClip ballBounceSound;
     public AudioClip initSound;
+    public Transform cp1;
+    public Transform cp2;
+    private Transform target1;
+    private Transform target2;
+    private bool insideTuberia;
+    private bool arrivedFirstPoint;
     void Start()
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
@@ -22,12 +28,15 @@ public class BallMove : MonoBehaviour
         timeLastChange = Time.time;
         lastCollisionTime = Time.time;
         godMode = false;
-        AudioSource.PlayClipAtPoint(initSound, transform.position);
+        insideTuberia = false;
+        arrivedFirstPoint = false;
+        //AudioSource.PlayClipAtPoint(initSound, transform.position);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(!insideTuberia) {
        float timeFromPreviosChange = Time.time;
         lastSpeed = rb.velocity;
        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && ((timeFromPreviosChange - timeLastChange) > 0.1))
@@ -60,10 +69,31 @@ public class BallMove : MonoBehaviour
        rb.velocity = new Vector3(x,y,0.0f);
        Debug.Log("final"+rb.velocity);
     }
+        else
+        {
+            if (target1 != null && target2 != null)
+            {
+                float step = speed * Time.deltaTime;
+                if (!arrivedFirstPoint)
+                {
+                    transform.position = target1.position;
+                    arrivedFirstPoint = true;
+                }
+                else transform.position = Vector3.MoveTowards(transform.position, target2.position, step);
+
+                if (transform.position == target2.position)
+                {
+                    insideTuberia = false;
+                    arrivedFirstPoint = false;
+                }
+            }
+            
+        }
+    }
 
     void OnCollisionEnter(Collision collision)
     {
-        if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer"))
+        if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer") && !insideTuberia)
         {
             AudioSource.PlayClipAtPoint(ballBounceSound, transform.position);
             var direction = Vector3.Reflect(lastSpeed.normalized, collision.contacts[0].normal);
@@ -93,10 +123,10 @@ public class BallMove : MonoBehaviour
  
         Debug.Log("preliminar"+rb.velocity);
         float x = 0, y = 0;
-        if (rb.velocity.x < 0) x = -15.0f;
-        if (rb.velocity.y < 0) y = -15.0f;
-        if (rb.velocity.x >= 0) x = 15.0f;
-        if (rb.velocity.y >= 0) y = 15.0f;
+        if (rb.velocity.x < 0 && !insideTuberia) x = -15.0f;
+        if (rb.velocity.y < 0 && !insideTuberia) y = -15.0f;
+        if (rb.velocity.x >= 0 && !insideTuberia) x = 15.0f;
+        if (rb.velocity.y >= 0 && !insideTuberia) y = 15.0f;
         rb.velocity = new Vector3(x,y,0.0f);
         Debug.Log("final"+rb.velocity);
 
@@ -112,8 +142,12 @@ public class BallMove : MonoBehaviour
         {
             initPosition = trigger.gameObject.transform.position;
         }
-        else if (trigger.gameObject.tag == "tuberia")
+        else if (trigger.gameObject.tag == "cp1")
         {
+            insideTuberia = true;
+            arrivedFirstPoint = false;
+            target1 =  (GameObject.Find("Cp1")).transform;
+            target2 =  (GameObject.Find("Cp2")).transform;
         }
     }
 }

@@ -7,6 +7,7 @@ public class PalaMove : MonoBehaviour
     public float speed = 10.0f;
     public Rigidbody rb;
     private float lastCollisionTime;
+	public AudioClip smash;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class PalaMove : MonoBehaviour
     {
         if ((collision.collider.tag == "limit" || collision.collider.tag == "noPlayer" ) && (Time.time - lastCollisionTime > 0.1))
         {
+			AudioSource.PlayClipAtPoint(smash, transform.position);
             speed = -speed;
             lastCollisionTime = Time.time;
         }

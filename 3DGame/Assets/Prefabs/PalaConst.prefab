@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   rb: {fileID: 6682644889837991712}
+  smash: {fileID: 8300000, guid: 2efb772a6809be5408a0081fe3ba6975, type: 3}
