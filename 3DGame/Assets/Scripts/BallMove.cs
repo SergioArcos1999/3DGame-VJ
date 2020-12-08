@@ -15,8 +15,6 @@ public class BallMove : MonoBehaviour
     public AudioClip changeDirectionSound;
     public AudioClip ballBounceSound;
     public AudioClip initSound;
-    public Transform cp1;
-    public Transform cp2;
     private Transform target1;
     private Transform target2;
     private bool insideTuberia;
@@ -87,6 +85,7 @@ public class BallMove : MonoBehaviour
                     lastTuberia = Time.time;
                     insideTuberia = false;
                     arrivedFirstPoint = false;
+                    Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y + 3.0f, transform.position.z), step);
                     
                 }
             }

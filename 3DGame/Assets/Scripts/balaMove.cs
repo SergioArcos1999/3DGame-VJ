@@ -5,7 +5,7 @@ using UnityEngine;
 public class balaMove : MonoBehaviour
 {
     public Transform target;
-    private float speed = 20.0f;
+    public float speed = 20.0f;
 
     private const float EPSILON = 0.1f;
 
