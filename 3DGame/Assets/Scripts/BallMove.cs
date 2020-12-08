@@ -11,12 +11,14 @@ public class BallMove : MonoBehaviour
     public GameObject efecto;
     // Start is called before the first frame update
     private Vector3 initPosition;
+    private bool godMode;
     void Start()
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
         rb.velocity = new Vector3(speed, speed);
         timeLastChange = Time.time;
         lastCollisionTime = Time.time;
+        godMode = false;
     }
 
     // Update is called once per frame
@@ -24,7 +26,7 @@ public class BallMove : MonoBehaviour
     {
        float timeFromPreviosChange = Time.time;
         lastSpeed = rb.velocity;
-       if (Input.GetKeyDown(KeyCode.Space) && ((timeFromPreviosChange - timeLastChange) > 0.1))
+       if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && ((timeFromPreviosChange - timeLastChange) > 0.1))
        {
            Object a = Instantiate(efecto,
                new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z),
@@ -38,6 +40,11 @@ public class BallMove : MonoBehaviour
        {
            transform.position = initPosition;
            rb.velocity = new Vector3(15.0f, 15.0f, 0);
+       }
+       if (Input.GetKeyDown("g"))
+       {
+           if (!godMode) godMode = true;
+           else godMode = false;
        }
        Debug.Log("preliminar"+rb.velocity);
        float x = 0, y = 0;
@@ -94,7 +101,7 @@ public class BallMove : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.tag == "tp" || trigger.gameObject.tag == "enemy") transform.position = initPosition;
+        if (trigger.gameObject.tag == "tp" || (trigger.gameObject.tag == "enemy" && !godMode)) transform.position = initPosition;
         else if (trigger.gameObject.tag == "checkpoint")
         {
             initPosition = trigger.gameObject.transform.position;

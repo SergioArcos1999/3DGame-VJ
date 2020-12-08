@@ -22,27 +22,41 @@ public class IAPala : MonoBehaviour
             {
                 if (target.position.y > transform.position.y)
                 {
-                    speed = 15.0f;
+                    if(tag == "palaAvoid") speed = -15.0f;
+					else speed = 15.0f;
                 }
                 else if (target.position.y < transform.position.y)
                 {
-                    speed = -15.0f;
+                    if(tag == "palaAvoid")  speed = 15.0f;                  
+					else speed = -15.0f;
                 }
+				else
+        		{
+            		if(tag != "palaAvoid") speed = 0.0f;
+        		}
+
             }
             else if ((target.position.x > transform.position.x) && ((target.position.x - transform.position.x) <= 10))
             {
                 if (target.position.y > transform.position.y)
                 {
-                    speed = 15.0f;
+                    if(tag == "palaAvoid") speed = -15.0f;
+					else speed = 15.0f;
                 }
                 else if (target.position.y < transform.position.y)
                 {
-                    speed = -15.0f;
+                    if(tag == "palaAvoid")  speed = 15.0f;                  
+					else speed = -15.0f;
                 }
+				else
+        		{
+            		if(tag != "palaAvoid") speed = 0.0f;
+        		}
             }
             else
         	{
-            	speed = 0.0f;
+            	if(tag != "palaAvoid") speed = 0.0f;
+				//rb.velocity = new Vector3(0.0f, speed, 0.0f);
         	}
 
         	rb.velocity = new Vector3(0.0f, speed, 0.0f);
