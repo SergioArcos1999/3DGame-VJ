@@ -17,6 +17,9 @@ TagManager:
   - palaAvoid
   - cp2
   - cp1
+  - cpBala
+  - balaR
+  - balaL
   layers:
   - Default
   - TransparentFX

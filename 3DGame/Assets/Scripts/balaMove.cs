@@ -5,7 +5,7 @@ using UnityEngine;
 public class balaMove : MonoBehaviour
 {
     public Transform target;
-    private float speed = 10.0f;
+    private float speed = 20.0f;
 
     private const float EPSILON = 0.1f;
 
@@ -21,23 +21,17 @@ public class balaMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        look = (target.position - transform.position).normalized;
-
-        if ((transform.position - target.position).magnitude < 40)
-        {
-            //transform.rotation = Quaternion.LookRotation(target.transform.position - transform.position);
-            transform.Translate(look * Time.deltaTime * speed);
-            
-        }
-            
-        else  transform.position = initPosition;
+        float step = speed * Time.deltaTime;
+        transform.position = Vector3.MoveTowards(transform.position, target.position, step);
     }
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.tag == "Player")
+        if (trigger.gameObject.tag == "cpBala")
         {
-            transform.position = initPosition;
+            transform.position = trigger.gameObject.transform.position;
+            transform.Rotate(0.0f, 180.0f, 0.0f, Space.Self);
+            trigger.gameObject.transform.position = initPosition;
         }
     }
 }
