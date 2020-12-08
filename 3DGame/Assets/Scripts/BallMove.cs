@@ -7,7 +7,7 @@ public class BallMove : MonoBehaviour
     public float speed = 15.0f;
     private Vector3 lastSpeed;
     public Rigidbody rb;
-    float vx, vy, timeLastChange, lastCollisionTime;
+    float vx, vy, timeLastChange, lastCollisionTime, lastTuberia;
     public GameObject efecto;
     // Start is called before the first frame update
     private Vector3 initPosition;
@@ -27,6 +27,7 @@ public class BallMove : MonoBehaviour
         rb.velocity = new Vector3(speed, speed);
         timeLastChange = Time.time;
         lastCollisionTime = Time.time;
+        lastTuberia = Time.time;
         godMode = false;
         insideTuberia = false;
         arrivedFirstPoint = false;
@@ -83,8 +84,10 @@ public class BallMove : MonoBehaviour
 
                 if (transform.position == target2.position)
                 {
+                    lastTuberia = Time.time;
                     insideTuberia = false;
                     arrivedFirstPoint = false;
+                    
                 }
             }
             
@@ -142,12 +145,19 @@ public class BallMove : MonoBehaviour
         {
             initPosition = trigger.gameObject.transform.position;
         }
-        else if (trigger.gameObject.tag == "cp1")
+        else if (trigger.gameObject.tag == "cp1" && (Time.time - lastTuberia > 1.0f) && !insideTuberia)
         {
             insideTuberia = true;
             arrivedFirstPoint = false;
             target1 =  (GameObject.Find("Cp1")).transform;
             target2 =  (GameObject.Find("Cp2")).transform;
+        }
+        else if (trigger.gameObject.tag == "cp2" && (Time.time - lastTuberia > 1.0f) && !insideTuberia)
+        {
+            insideTuberia = true;
+            arrivedFirstPoint = false;
+            target1 =  (GameObject.Find("Cp2")).transform;
+            target2 =  (GameObject.Find("Cp1")).transform;
         }
     }
 }
