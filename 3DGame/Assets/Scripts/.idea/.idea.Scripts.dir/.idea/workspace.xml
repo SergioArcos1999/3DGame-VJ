@@ -20,16 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Scenes/Game4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BossBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BossBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/LastSceneManagerSetup.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/LastSceneManagerSetup.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptMapper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +99,7 @@
       <workItem from="1607086181263" duration="1030000" />
       <workItem from="1607107548406" duration="3740000" />
       <workItem from="1607368727141" duration="2240000" />
-      <workItem from="1607417228335" duration="28139000" />
+      <workItem from="1607417228335" duration="29037000" />
     </task>
     <servers />
   </component>
