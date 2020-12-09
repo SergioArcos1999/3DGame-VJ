@@ -30,12 +30,12 @@ public class buttonPressed : MonoBehaviour
         
         Instantiate(after, new Vector3 (this.transform.position.x, this.transform.position.y, this.transform.position.z),transform.rotation);
         transform.position = new Vector3 (-1000.0f, 0.0f, 0.0f);
-        Destroy(target);
-        Destroy(target1);
-        Destroy(target2);
-        Destroy(target3);
-        Destroy(target4);
-        Destroy(target5);
-        Destroy(target6);
+        if (target != null) Destroy(target);
+        if (target1 != null) Destroy(target1);
+        if (target2 != null)Destroy(target2);
+        if (target3 != null)Destroy(target3);
+        if (target4 != null)Destroy(target4);
+        if (target5 != null)Destroy(target5);
+        if (target6 != null)Destroy(target6);
     }
 }

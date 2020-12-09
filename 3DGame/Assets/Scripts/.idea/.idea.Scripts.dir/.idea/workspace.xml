@@ -20,20 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Prefabs/PalaAvoid.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/PalaAvoid.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prefabs/marioBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/marioBall.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Prefabs/marioBall.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Prefabs/marioBall.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scenes/Game1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scenes/Game2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IAPala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/IAPala.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/balaMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/balaMove.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buttonPressed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/buttonPressed.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" afterDir="false" />
@@ -62,7 +51,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ParticlesMove.cs" />
-        <option value="$PROJECT_DIR$/buttonPressed.cs" />
         <option value="$PROJECT_DIR$/killGoomba.cs" />
         <option value="$PROJECT_DIR$/checkpointOn.cs" />
         <option value="$PROJECT_DIR$/PalaMove.cs" />
@@ -70,6 +58,7 @@
         <option value="$PROJECT_DIR$/BallMove.cs" />
         <option value="$PROJECT_DIR$/balaMove.cs" />
         <option value="$PROJECT_DIR$/IAPala.cs" />
+        <option value="$PROJECT_DIR$/buttonPressed.cs" />
       </list>
     </option>
   </component>
@@ -105,7 +94,7 @@
       <workItem from="1607086181263" duration="1030000" />
       <workItem from="1607107548406" duration="3740000" />
       <workItem from="1607368727141" duration="2240000" />
-      <workItem from="1607417228335" duration="16493000" />
+      <workItem from="1607417228335" duration="17961000" />
     </task>
     <servers />
   </component>
