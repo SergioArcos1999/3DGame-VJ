@@ -10,11 +10,9 @@ public class palaAvoid : MonoBehaviour
     float lastCollisionTime, actualCollisionTime;
     public Transform target;
     private Vector3 initPosition;
-    private bool back;
     void Start()
     {
         initPosition = transform.position;
-        back = false;
     }
 
     // Update is called once per frame
@@ -22,7 +20,6 @@ public class palaAvoid : MonoBehaviour
     {
         if ((target.position.x > transform.position.x) && ((target.position.x - transform.position.x) <= 10))
         {
-            back = false;
             Debug.Log("if");
             if (target.position.y > transform.position.y)
             {

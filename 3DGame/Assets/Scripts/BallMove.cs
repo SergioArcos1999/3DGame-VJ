@@ -19,6 +19,7 @@ public class BallMove : MonoBehaviour
     private Transform target2;
     private bool insideTuberia;
     private bool arrivedFirstPoint;
+    public AudioClip laught;
     void Start()
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
@@ -157,6 +158,12 @@ public class BallMove : MonoBehaviour
             arrivedFirstPoint = false;
             target1 =  (GameObject.Find("Cp2")).transform;
             target2 =  (GameObject.Find("Cp1")).transform;
+        }
+        else if (trigger.gameObject.tag == "bossTp")
+        {
+            transform.position = new Vector3(-60.0f, 74.0f, -3.0f);
+            AudioSource.PlayClipAtPoint(laught, transform.position);
+            
         }
     }
 }
