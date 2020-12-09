@@ -59,14 +59,14 @@ public class BallMove : MonoBehaviour
            if (!godMode) godMode = true;
            else godMode = false;
        }
-       Debug.Log("preliminar"+rb.velocity);
+       //Debug.Log("preliminar"+rb.velocity);
        float x = 0, y = 0;
        if (rb.velocity.x < 0) x = -15.0f;
        if (rb.velocity.y < 0) y = -15.0f;
        if (rb.velocity.x >= 0) x = 15.0f;
        if (rb.velocity.y >= 0) y = 15.0f;
        rb.velocity = new Vector3(x,y,0.0f);
-       Debug.Log("final"+rb.velocity);
+       //Debug.Log("final"+rb.velocity);
     }
         else
         {
@@ -123,14 +123,14 @@ public class BallMove : MonoBehaviour
             lastCollisionTime = Time.time;
         }
  
-        Debug.Log("preliminar"+rb.velocity);
+        //Debug.Log("preliminar"+rb.velocity);
         float x = 0, y = 0;
         if (rb.velocity.x < 0 && !insideTuberia) x = -15.0f;
         if (rb.velocity.y < 0 && !insideTuberia) y = -15.0f;
         if (rb.velocity.x >= 0 && !insideTuberia) x = 15.0f;
         if (rb.velocity.y >= 0 && !insideTuberia) y = 15.0f;
         rb.velocity = new Vector3(x,y,0.0f);
-        Debug.Log("final"+rb.velocity);
+        //Debug.Log("final"+rb.velocity);
 
 
         //Debug.Log(rb.velocity);
