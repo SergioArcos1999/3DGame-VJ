@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -2664789870815593786}
   m_Layer: 0
   m_Name: bloqueGris
-  m_TagString: Untagged
+  m_TagString: limit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
