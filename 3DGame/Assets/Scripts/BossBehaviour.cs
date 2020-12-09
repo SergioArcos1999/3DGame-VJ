@@ -9,6 +9,14 @@ public class BossBehaviour : MonoBehaviour
     private float x0, y0;
     public float speedX = 20.0f;
     public float speedY = 5.0f;
+    public GameObject aura;
+    public Rigidbody rb;
+    public GameObject d1;
+    public GameObject d2;
+    public GameObject d3;
+    public GameObject d4;
+    public GameObject d5;
+    
     void Start()
     {
         lives = 3;
@@ -24,7 +32,17 @@ public class BossBehaviour : MonoBehaviour
         else if (lives == 1) transform.position = new Vector3(x0+2*Mathf.Sin(speedX*2*Time.time), y0+5*Mathf.Sin(speedY*Time.time), transform.position.z);
         else
         {
+            Destroy(aura);
             //lose efect
+            GetComponent<BoxCollider>().enabled = false;
+            float delta = Time.deltaTime;
+            transform.Rotate(500.0f * delta, 0.0f, 0.0f);
+            rb.velocity = new Vector3(30.0f, 30.0f, 0.0f);
+            Destroy(d1);
+            Destroy(d2);
+            Destroy(d3);
+            Destroy(d4);
+            Destroy(d5);
         }
     }
 
@@ -34,7 +52,7 @@ public class BossBehaviour : MonoBehaviour
         {
             --lives;
             //emetir sonido AAAARGH;
-            collision.collider.transform.position = new Vector3(-61.0f,62.6f, -3.0f);
+            if (lives > 0) collision.collider.transform.position = new Vector3(-61.0f,62.6f, -3.0f);
         }
     }
 }
