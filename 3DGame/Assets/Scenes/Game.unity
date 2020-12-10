@@ -5757,8 +5757,8 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 70
-  field of view: 46.26296
-  orthographic: 1
+  field of view: 52.6
+  orthographic: 0
   orthographic size: 16.903091
   m_Depth: -1
   m_CullingMask:
@@ -5783,7 +5783,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30, y: 118.3, z: -39}
+  m_LocalPosition: {x: -33.3, y: 117.6, z: -38.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5803,7 +5803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1064861303}
   smoothSpeed: 0.125
-  offset: {x: 0, y: 0, z: -43.7}
+  offset: {x: 0, y: 0, z: 0}
 --- !u!4 &984883765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3691657521123199126, guid: 48f3fc4d37997cc48a0807a0b55a8592,
@@ -6142,7 +6142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064861299}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -57, y: 108.3, z: -3}
+  m_LocalPosition: {x: -59.2, y: 45.7, z: -3}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6183,6 +6183,7 @@ MonoBehaviour:
     type: 3}
   ballBounceSound: {fileID: 8300000, guid: f79dd542a8bd71f4c9d12dd7ccb169a0, type: 3}
   initSound: {fileID: 8300000, guid: cb957e4e5fb4e9c4194289083b5b2c31, type: 3}
+  laught: {fileID: 0}
 --- !u!1001 &1072622536
 PrefabInstance:
   m_ObjectHideFlags: 0
