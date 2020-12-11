@@ -6183,6 +6183,7 @@ MonoBehaviour:
     type: 3}
   ballBounceSound: {fileID: 8300000, guid: f79dd542a8bd71f4c9d12dd7ccb169a0, type: 3}
   initSound: {fileID: 8300000, guid: cb957e4e5fb4e9c4194289083b5b2c31, type: 3}
+  finalBossMusic: {fileID: 0}
   laught: {fileID: 0}
 --- !u!1001 &1072622536
 PrefabInstance:
