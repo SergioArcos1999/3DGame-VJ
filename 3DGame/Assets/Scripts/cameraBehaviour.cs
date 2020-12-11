@@ -258,7 +258,67 @@ public class cameraBehaviour : MonoBehaviour
                 desiredPosition.z = -31;
             }
         }
-        
+
+        else if (sceneName == "Game3")
+        {
+            //Inicio
+            if (target.position.y <= 36 && target.position.y >= 2 && target.position.x >= -4 && target.position.x <= 61)
+            {
+                desiredPosition.x = 29;
+                desiredPosition.y = 19;
+                desiredPosition.z = -45;
+            }
+            //Inicio2 - entrada tubo
+            if (target.position.y <= 36 && target.position.y >= 2 && target.position.x >= -65 && target.position.x < 4)
+            {
+                desiredPosition.x = -35;
+                desiredPosition.y = 19;
+                desiredPosition.z = -45;
+            }
+            //Salida tubería superior
+            if (target.position.y <= 135 && target.position.y > 101 && target.position.x >= -65 && target.position.x <= -4)
+            {
+                desiredPosition.x = -35;
+                desiredPosition.y = 118;
+                desiredPosition.z = -45;
+            }
+            //Escaleras
+            if (target.position.y <= 101 && target.position.y > 69 && target.position.x >= -65 && target.position.x <= -4)
+            {
+                desiredPosition.x = -35;
+                desiredPosition.y = 85;
+                desiredPosition.z = -45;
+            }
+            //Sala Balas
+            if (target.position.y <= 69 && target.position.y > 36 && target.position.x >= -65 && target.position.x <= -4)
+            {
+                desiredPosition.x = -35;
+                desiredPosition.y = 52;
+                desiredPosition.z = -45;
+            }
+            //Cueva
+            if (target.position.y <= 69 && target.position.y > 36 && target.position.x >= -4 && target.position.x <= 61)
+            {
+                desiredPosition.x = 31;
+                desiredPosition.y = 52;
+                desiredPosition.z = -45;
+            }
+            //Penultimo
+            if (target.position.y <= 101 && target.position.y > 69 && target.position.x >= -4 && target.position.x <= 61)
+            {
+                desiredPosition.x = 31;
+                desiredPosition.y = 85;
+                desiredPosition.z = -45;
+            }
+            //Ultimo
+            if (target.position.y <= 135 && target.position.y > 101 && target.position.x >= -4 && target.position.x <= 61)
+            {
+                desiredPosition.x = 31;
+                desiredPosition.y = 117;
+                desiredPosition.z = -45;
+            }
+        }
+
         else if(sceneName == "Game4")
         {
             //Inicio
