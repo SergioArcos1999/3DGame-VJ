@@ -15,6 +15,7 @@ public class BallMove : MonoBehaviour
     public AudioClip changeDirectionSound;
     public AudioClip ballBounceSound;
     public AudioClip initSound;
+    public AudioClip finalBossMusic;
     private Transform target1;
     private Transform target2;
     private bool insideTuberia;
@@ -162,8 +163,8 @@ public class BallMove : MonoBehaviour
         else if (trigger.gameObject.tag == "bossTp")
         {
             transform.position = new Vector3(-60.0f, 74.0f, -3.0f);
-            AudioSource.PlayClipAtPoint(laught, transform.position);
-            
+            AudioSource.PlayClipAtPoint(finalBossMusic, (GameObject.Find("Main Camera")).transform.position);
+            AudioSource.PlayClipAtPoint(laught, (GameObject.Find("Main Camera")).transform.position);
         }
     }
 }

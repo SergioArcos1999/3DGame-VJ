@@ -19,6 +19,8 @@ public class BossBehaviour : MonoBehaviour
     public GameObject l1;
     public GameObject l2;
     public GameObject l3;
+	public AudioClip finalHit;
+	public AudioClip hit;
     
     
     void Start()
@@ -55,10 +57,18 @@ public class BossBehaviour : MonoBehaviour
         if (collision.collider.tag == "Player")
         {
             --lives;
-            if (lives == 2) Destroy(l1);
-            if (lives == 1) Destroy(l2);
-            if (lives == 0) Destroy(l3);
-            //emetir sonido AAAARGH;
+            if (lives == 2) {
+ 				Destroy(l1);
+				AudioSource.PlayClipAtPoint(hit, (GameObject.Find("Main Camera")).transform.position);
+			}
+            if (lives == 1) {
+ 				Destroy(l2);
+				AudioSource.PlayClipAtPoint(hit, (GameObject.Find("Main Camera")).transform.position);
+			}
+            if (lives == 0) {
+ 				Destroy(l3);
+            AudioSource.PlayClipAtPoint(finalHit, (GameObject.Find("Main Camera")).transform.position);
+			}
             if (lives > 0) collision.collider.transform.position = new Vector3(-61.0f,62.6f, -3.0f);
         }
     }
