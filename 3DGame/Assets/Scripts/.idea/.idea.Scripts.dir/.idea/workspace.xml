@@ -19,17 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Scenes/Game4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BallMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BossBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BossBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/EditorUserBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" afterDir="false" />
-    </list>
+    <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -101,7 +91,7 @@
       <workItem from="1607107548406" duration="3740000" />
       <workItem from="1607368727141" duration="2240000" />
       <workItem from="1607417228335" duration="29037000" />
-      <workItem from="1607674248246" duration="2647000" />
+      <workItem from="1607674248246" duration="3324000" />
     </task>
     <servers />
   </component>
