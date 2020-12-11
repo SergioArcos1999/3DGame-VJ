@@ -18,6 +18,7 @@ public class cameraBehaviour : MonoBehaviour
     {
         currentScene = SceneManager.GetActiveScene();
         sceneName = currentScene.name;
+
     }
 
     void FixedUpdate ()
