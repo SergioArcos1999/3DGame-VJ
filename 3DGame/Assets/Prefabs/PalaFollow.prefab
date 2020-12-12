@@ -125,4 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   rb: {fileID: 6996205140848402763}
-  target: {fileID: 0}
+  target: {fileID: 6138450756859883271, guid: d34693e6a3a4e8f49a10c77d6aa28532, type: 3}

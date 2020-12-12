@@ -21,6 +21,7 @@ public class BossBehaviour : MonoBehaviour
     public GameObject l3;
 	public AudioClip finalHit;
 	public AudioClip hit;
+	public AudioSource win;
     
     
     void Start()
@@ -68,6 +69,8 @@ public class BossBehaviour : MonoBehaviour
             if (lives == 0) {
  				Destroy(l3);
             AudioSource.PlayClipAtPoint(finalHit, (GameObject.Find("Main Camera")).transform.position);
+			GameObject.Find("Player").GetComponent<AudioSource>().Pause();
+			win.Play();
 			}
             if (lives > 0) collision.collider.transform.position = new Vector3(-61.0f,62.6f, -3.0f);
         }

@@ -13,15 +13,15 @@ public class BallMove : MonoBehaviour
     // Start is called before the first frame update
     private Vector3 initPosition;
     private bool godMode;
-    public AudioClip changeDirectionSound;
-    public AudioClip ballBounceSound;
-    public AudioClip initSound;
-    public AudioClip finalBossMusic;
+    public AudioSource changeDirectionSound;
+    public AudioSource ballBounceSound;
+    public AudioSource initSound;
+    //public AudioClip finalBossMusic;
     private Transform target1;
     private Transform target2;
     private bool insideTuberia;
     private bool arrivedFirstPoint;
-    public AudioClip laught;
+    public AudioSource laught;
     void Start()
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
@@ -43,7 +43,7 @@ public class BallMove : MonoBehaviour
         lastSpeed = rb.velocity;
        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && ((timeFromPreviosChange - timeLastChange) > 0.1))
        {
-           AudioSource.PlayClipAtPoint(changeDirectionSound, transform.position);
+           changeDirectionSound.Play();
            Object a = Instantiate(efecto,
                new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z),
                    transform.rotation);
@@ -100,7 +100,7 @@ public class BallMove : MonoBehaviour
     {
         if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer") && !insideTuberia)
         {
-            AudioSource.PlayClipAtPoint(ballBounceSound, transform.position);
+            ballBounceSound.Play();
             var direction = Vector3.Reflect(lastSpeed.normalized, collision.contacts[0].normal);
             if (direction.x > 0.0f && direction.y > 0.0f)
             {
@@ -165,8 +165,9 @@ public class BallMove : MonoBehaviour
         else if (trigger.gameObject.tag == "bossTp")
         {
             transform.position = new Vector3(-60.0f, 74.0f, -3.0f);
-            AudioSource.PlayClipAtPoint(finalBossMusic, (GameObject.Find("Main Camera")).transform.position);
-            AudioSource.PlayClipAtPoint(laught, (GameObject.Find("Main Camera")).transform.position);
+			laught.Play();
+			GetComponent<AudioSource>().Play();
+            
         }
         else if (trigger.gameObject.tag == "trophy")
         {
