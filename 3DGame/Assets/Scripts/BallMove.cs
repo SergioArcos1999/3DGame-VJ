@@ -22,6 +22,7 @@ public class BallMove : MonoBehaviour
     private bool insideTuberia;
     private bool arrivedFirstPoint;
     public AudioSource laught;
+	public AudioSource tuberiaSound;
     void Start()
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
@@ -89,7 +90,7 @@ public class BallMove : MonoBehaviour
                     insideTuberia = false;
                     arrivedFirstPoint = false;
                     Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, transform.position.y + 3.0f, transform.position.z), step);
-                    
+                    tuberiaSound.Pause();
                 }
             }
             
@@ -154,6 +155,7 @@ public class BallMove : MonoBehaviour
             arrivedFirstPoint = false;
             target1 =  (GameObject.Find("Cp1")).transform;
             target2 =  (GameObject.Find("Cp2")).transform;
+			tuberiaSound.Play();
         }
         else if (trigger.gameObject.tag == "cp2" && (Time.time - lastTuberia > 1.0f) && !insideTuberia)
         {
@@ -161,6 +163,7 @@ public class BallMove : MonoBehaviour
             arrivedFirstPoint = false;
             target1 =  (GameObject.Find("Cp2")).transform;
             target2 =  (GameObject.Find("Cp1")).transform;
+			tuberiaSound.Play();
         }
         else if (trigger.gameObject.tag == "bossTp")
         {
