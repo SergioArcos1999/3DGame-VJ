@@ -32,6 +32,11 @@ public class MiddleMenu : MonoBehaviour
         SceneManager.LoadScene("Game4");
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
     void Start()
     {
         currentLevel = 1;
