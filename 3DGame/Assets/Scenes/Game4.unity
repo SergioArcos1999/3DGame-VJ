@@ -17161,6 +17161,7 @@ MonoBehaviour:
   ballBounceSound: {fileID: 1064861309}
   initSound: {fileID: 8300000, guid: cb957e4e5fb4e9c4194289083b5b2c31, type: 3}
   laught: {fileID: 1064861307}
+  tuberiaSound: {fileID: 0}
 --- !u!82 &1064861306
 AudioSource:
   m_ObjectHideFlags: 0
@@ -30998,6 +30999,7 @@ GameObject:
   - component: {fileID: 9084420920447578681}
   - component: {fileID: 6252535523811101555}
   - component: {fileID: 7485208871458746343}
+  - component: {fileID: 46293615390597379}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: trophy
@@ -31005,6 +31007,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!65 &46293615390597379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46293615390597378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2, y: 3.2, z: 3.2}
+  m_Center: {x: 0, y: 1.6, z: 0}
 --- !u!1 &332112982684888670
 GameObject:
   m_ObjectHideFlags: 0
