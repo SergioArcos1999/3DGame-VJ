@@ -119,10 +119,10 @@ public class BallMove : MonoBehaviour
             {
                 rb.velocity = new Vector3(-15.0f, -15.0f, 0);
             }
-            else
+            /*else
             {
                 rb.velocity = new Vector3(15.0f, 15.0f, 0);
-            }
+            }*/
 
             lastCollisionTime = Time.time;
         }
