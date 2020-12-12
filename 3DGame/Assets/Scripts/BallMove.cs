@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BallMove : MonoBehaviour
 {
@@ -141,7 +142,8 @@ public class BallMove : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.tag == "tp" || (trigger.gameObject.tag == "enemy" && !godMode)) transform.position = initPosition;
+        if ((trigger.gameObject.tag == "enemy" && !godMode)) transform.position = initPosition;
+        else if(trigger.gameObject.tag == "tp") { SceneManager.LoadScene("MiddleMenu"); }
         else if (trigger.gameObject.tag == "checkpoint")
         {
             initPosition = trigger.gameObject.transform.position;
@@ -165,6 +167,10 @@ public class BallMove : MonoBehaviour
             transform.position = new Vector3(-60.0f, 74.0f, -3.0f);
             AudioSource.PlayClipAtPoint(finalBossMusic, (GameObject.Find("Main Camera")).transform.position);
             AudioSource.PlayClipAtPoint(laught, (GameObject.Find("Main Camera")).transform.position);
+        }
+        else if (trigger.gameObject.tag == "trophy")
+        {
+            SceneManager.LoadScene("MiddleMenu");
         }
     }
 }
