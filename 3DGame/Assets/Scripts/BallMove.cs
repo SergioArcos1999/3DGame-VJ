@@ -23,6 +23,7 @@ public class BallMove : MonoBehaviour
     private bool arrivedFirstPoint;
     public AudioSource laught;
 	public AudioSource tuberiaSound;
+	public AudioSource death;
     void Start()
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
@@ -102,7 +103,7 @@ public class BallMove : MonoBehaviour
         if ((Time.time - lastCollisionTime > 0.1) && (collision.collider.tag != "noPlayer") && !insideTuberia)
         {
             ballBounceSound.Play();
-            var direction = Vector3.Reflect(lastSpeed.normalized, collision.contacts[0].normal);
+            var direction = Vector3.Reflect(lastSpeed, collision.contacts[0].normal).normalized * Time.deltaTime * speed;
             if (direction.x > 0.0f && direction.y > 0.0f)
             {
                 rb.velocity = new Vector3(15.0f, 15.0f, 0);
@@ -123,8 +124,10 @@ public class BallMove : MonoBehaviour
             {
                 rb.velocity = new Vector3(15.0f, 15.0f, 0);
             }*/
+			
 
             lastCollisionTime = Time.time;
+
         }
  
         //Debug.Log("preliminar"+rb.velocity);
@@ -143,7 +146,10 @@ public class BallMove : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if ((trigger.gameObject.tag == "enemy" && !godMode)) transform.position = initPosition;
+        if ((trigger.gameObject.tag == "enemy" && !godMode)) {
+ 			death.Play();
+			transform.position = initPosition;
+		}
         else if(trigger.gameObject.tag == "tp") { SceneManager.LoadScene("MiddleMenu"); }
         else if (trigger.gameObject.tag == "checkpoint")
         {
