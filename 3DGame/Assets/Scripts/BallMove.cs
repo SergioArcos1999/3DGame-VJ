@@ -54,7 +54,7 @@ public class BallMove : MonoBehaviour
             rb.velocity = new Vector3(rb.velocity.x, -rb.velocity.y,0);
         }
 
-       if (Input.GetKeyDown("p"))
+       if (Input.GetKeyDown("r"))
        {
            transform.position = initPosition;
            rb.velocity = new Vector3(15.0f, 15.0f, 0);
@@ -180,7 +180,7 @@ public class BallMove : MonoBehaviour
         }
         else if (trigger.gameObject.tag == "trophy")
         {
-            SceneManager.LoadScene("MiddleMenu");
+            SceneManager.LoadScene("VictoryMenu");
         }
     }
 }

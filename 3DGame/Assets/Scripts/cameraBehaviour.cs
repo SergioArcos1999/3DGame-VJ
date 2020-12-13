@@ -21,9 +21,19 @@ public class cameraBehaviour : MonoBehaviour
 
     }
 
+    void Update()
+    {
+        //Player presses 1,2,3,4,5:
+        if (Input.GetKeyDown("1")) { if (sceneName != "Game") SceneManager.LoadScene("Game"); }
+        if (Input.GetKeyDown("2")) { if (sceneName != "Game1") SceneManager.LoadScene("Game1"); }
+        if (Input.GetKeyDown("3")) { if (sceneName != "Game2") SceneManager.LoadScene("Game2"); }
+        if (Input.GetKeyDown("4")) { if (sceneName != "Game3") SceneManager.LoadScene("Game3"); }
+        if (Input.GetKeyDown("5")) { if (sceneName != "Game4") SceneManager.LoadScene("Game4"); }
+    }
     void FixedUpdate ()
     {
-        if(sceneName == "Game") //Level 1
+        //Camera positioning on each level:
+        if (sceneName == "Game") //Level 1
         {
             //Izquierda-arriba
             if (target.position.y >= 101 && target.position.x <= -1.49)

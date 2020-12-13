@@ -4,9 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class MiddleMenu : MonoBehaviour
-{
-    public static int currentLevel;
-
+{ 
     public void PlayLevel1()
     {
         SceneManager.LoadScene("Game");
@@ -39,7 +37,6 @@ public class MiddleMenu : MonoBehaviour
 
     void Start()
     {
-        currentLevel = 1;
     }
 
     void Update()
