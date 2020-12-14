@@ -23,6 +23,7 @@ TagManager:
   - boss
   - bossTp
   - trophy
+  - coin
   layers:
   - Default
   - TransparentFX
