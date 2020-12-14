@@ -6,17 +6,15 @@ using UnityEngine.SceneManagement;
 public class BallMove : MonoBehaviour
 {
     public float speed = 15.0f;
-    private Vector3 lastSpeed;
+    private Vector3 lastSpeed, lastCollisionSpeed;
     public Rigidbody rb;
     float vx, vy, timeLastChange, lastCollisionTime, lastTuberia;
     public GameObject efecto;
-    // Start is called before the first frame update
     private Vector3 initPosition;
     private bool godMode;
     public AudioSource changeDirectionSound;
     public AudioSource ballBounceSound;
     public AudioSource initSound;
-    //public AudioClip finalBossMusic;
     private Transform target1;
     private Transform target2;
     private bool insideTuberia;
@@ -28,6 +26,7 @@ public class BallMove : MonoBehaviour
     {
         initPosition = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
         rb.velocity = new Vector3(speed, speed);
+		lastCollisionSpeed = rb.velocity;
         timeLastChange = Time.time;
         lastCollisionTime = Time.time;
         lastTuberia = Time.time;
@@ -120,12 +119,10 @@ public class BallMove : MonoBehaviour
             {
                 rb.velocity = new Vector3(-15.0f, -15.0f, 0);
             }
-            /*else
+            else
             {
                 rb.velocity = new Vector3(15.0f, 15.0f, 0);
-            }*/
-			
-
+            }
             lastCollisionTime = Time.time;
 
         }

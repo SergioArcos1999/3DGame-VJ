@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a2fdfd0-d81a-458e-81d9-c62504733813" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Scenes/Game1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Game2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Game4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Game4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BallMove.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BallMove.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CoinBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CoinBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/APIUpdater/project-dependencies.graph" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/PackageCache/com.unity.ide.rider@1.1.4/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/PackageCache/com.unity.ide.rider@1.1.4/package.json" afterDir="false" />
@@ -40,6 +42,8 @@
       <change beforePath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/Hierarchy/024081-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/StateCache/SceneView/630d61-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/Style.catalog" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/Style.catalog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
@@ -56,7 +60,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/boxTouched.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/balaMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/balaMove.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ParticlesMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BossBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/killGoomba.cs" root0="FORCE_HIGHLIGHTING" />
@@ -127,6 +131,8 @@
       <workItem from="1607674248246" duration="3324000" />
       <workItem from="1607784798215" duration="8314000" />
       <workItem from="1607852102332" duration="5940000" />
+      <workItem from="1607955847895" duration="1792000" />
+      <workItem from="1607958568540" duration="639000" />
     </task>
     <servers />
   </component>
